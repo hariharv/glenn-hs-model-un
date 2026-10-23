@@ -526,16 +526,6 @@ main:focus {
   height: auto;
 }
 
-.logo-caption {
-  display: block;
-  margin-top: 10px;
-  color: var(--navy-muted);
-  font-family: var(--font-display);
-  font-size: 0.9rem;
-  font-style: italic;
-  text-align: center;
-}
-
 .paper-tape {
   position: absolute;
   z-index: 4;
@@ -2209,7 +2199,7 @@ main:focus {
   }
 
   .conference-status strong::before {
-    content: '— ';
+    content: '· ';
   }
 
   .ready-checklist {

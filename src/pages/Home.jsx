@@ -36,7 +36,7 @@ const delegatePath = [
   {
     label: 'Before committee',
     title: 'Research the room',
-    body: 'Learn your country, define its priorities, and arrive with an opening position—not a memorized script.',
+    body: 'Learn your country, define its priorities, and arrive with an opening position, not a memorized script.',
   },
   {
     label: 'In committee',
@@ -71,7 +71,7 @@ export default function Home() {
                 Explore conferences <ArrowRight aria-hidden="true" size={18} />
               </Link>
               <Link className="text-link" to="/about">
-                Meet the interim officers <ArrowRight aria-hidden="true" size={17} />
+                Meet the officers <ArrowRight aria-hidden="true" size={17} />
               </Link>
             </div>
             <div className="hero-proof" aria-label="Club focus areas">
@@ -88,7 +88,6 @@ export default function Home() {
               <div className="paper-tape paper-tape--right" aria-hidden="true" />
               <p>Official club mark</p>
               <Logo />
-              <span className="logo-caption">Normal (Clean Up)</span>
             </div>
             <div className="round-stamp" aria-hidden="true">
               <span>Research • Debate • Diplomacy •</span>
@@ -134,7 +133,7 @@ export default function Home() {
           <div className="path-intro">
             <p className="eyebrow">The delegate path</p>
             <h2>From a blank page to a working resolution.</h2>
-            <p>Great delegates are built one skill at a time. Our team focuses on the full process—not just the speech at the podium.</p>
+            <p>Great delegates are built one skill at a time. Our team focuses on the full process, not just the speech at the podium.</p>
             <Link className="text-link text-link--light" to="/resources">
               Open the delegate toolkit <ArrowRight aria-hidden="true" size={17} />
             </Link>

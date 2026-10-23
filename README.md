@@ -4,10 +4,10 @@ A responsive first-draft website for Tom Glenn High School Model United Nations.
 
 ## Pages
 
-- Home — club introduction, Model UN focus areas, and delegate journey
-- About Us — interim officer structure with seven requested positions
-- Helpful Links — six clearly labeled draft delegate resources
-- Conferences — CTMUN Fall, SICMUN, MUNSA, and CTMUN Spring
+- Home: club introduction, Model UN focus areas, and delegate journey
+- About Us: officer structure with seven requested positions
+- Helpful Links: six clearly labeled draft delegate resources
+- Conferences: CTMUN Fall, SICMUN, MUNSA, and CTMUN Spring
 
 ## Local development
 
@@ -35,4 +35,4 @@ This draft intentionally avoids unconfirmed officer names, conference dates, cos
 
 ## Logo
 
-The site uses the user-approved “Normal (Clean Up)” logo crop in `public/brand/glenn-model-un-logo.png`. The source reference was a desktop screenshot, so only the logo itself is included to avoid publishing unrelated screen content. Replace it with an original SVG or high-resolution transparent export when available.
+The site uses the user-approved Glenn Model UN logo crop in `public/brand/glenn-model-un-logo.png`. The source reference was a desktop screenshot, so only the logo itself is included to avoid publishing unrelated screen content. Replace it with an original SVG or high-resolution transparent export when available.

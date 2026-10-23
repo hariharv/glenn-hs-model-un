@@ -4,14 +4,14 @@ import Gavel from '../components/Gavel'
 
 const officers = [
   {
-    code: 'SG–01',
+    code: 'SG-01',
     role: 'Co-Secretary-General',
     short: 'Co-SG',
     icon: UsersRound,
     description: 'Shares responsibility for the club’s direction, team coordination, and delegate experience.',
   },
   {
-    code: 'SG–02',
+    code: 'SG-02',
     role: 'Co-Secretary-General',
     short: 'Co-SG',
     icon: UsersRound,
@@ -60,15 +60,15 @@ export default function About() {
       <section className="page-hero page-hero--about">
         <div className="container page-hero-grid">
           <div>
-            <p className="eyebrow">About us / Interim leadership</p>
+            <p className="eyebrow">About us / Officer team</p>
             <h1>Seven roles.<br /><span>One delegation.</span></h1>
-            <p>Our interim officer structure supports club planning, delegate preparation, committee formats, and communications.</p>
+            <p>Our officer team supports club planning, delegate preparation, committee formats, and communications.</p>
           </div>
           <div className="about-hero-card">
             <p>Our working principle</p>
             <blockquote>“Lead by helping every delegate enter the room ready to contribute.”</blockquote>
             <div className="about-hero-signoff">
-              <span>Interim officer team</span>
+              <span>Officer team</span>
               <Megaphone aria-hidden="true" />
             </div>
             <Gavel className="about-gavel" />
@@ -80,8 +80,8 @@ export default function About() {
         <div className="container">
           <div className="officer-heading">
             <div>
-              <p className="eyebrow">Meet the team</p>
-              <h2>Interim officer positions</h2>
+              <p className="eyebrow">Officer team</p>
+              <h2>Meet the officers</h2>
             </div>
             <p>Names will be added after the leadership roster is confirmed. For now, here is how each office supports the club.</p>
           </div>
@@ -104,7 +104,7 @@ export default function About() {
             ))}
           </div>
 
-          <p className="status-caption">Leadership information is interim and subject to confirmation.</p>
+          <p className="status-caption">Officer names are coming soon and subject to confirmation.</p>
         </div>
       </section>
 

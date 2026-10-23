@@ -93,7 +93,7 @@ export default function Resources() {
                 <p className="resource-tag">{tag}</p>
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <button type="button" disabled aria-label={`${title} — coming soon`}>
+                <button type="button" disabled aria-label={`${title}, coming soon`}>
                   <Hourglass aria-hidden="true" size={15} /> Coming soon
                 </button>
               </article>
